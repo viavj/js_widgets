@@ -48,7 +48,7 @@ $(function() {
     if(proceed)
     {
       $('.field').find('path').each(function(){
-        $(this).attr('fill', '#3ac569');
+        $(this).attr('fill', '#53d4e3');
       });
       $('.payment').fadeToggle('slow', function() {
         $('.paid').fadeToggle('slow', 'linear');
